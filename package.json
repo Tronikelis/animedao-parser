@@ -1,0 +1,22 @@
+{
+    "name": "animedao",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^16.11.6",
+        "nodemon": "^2.0.14",
+        "ts-node": "^10.4.0"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "cheerio": "^1.0.0-rc.10",
+        "typescript": "^4.4.4"
+    }
+}
