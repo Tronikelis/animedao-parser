@@ -137,3 +137,5 @@ const upcoming = async () => {
 
     return episodes;
 };
+
+export { search, getAnime, getVideo, recent, upcoming };
