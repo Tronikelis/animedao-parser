@@ -139,3 +139,4 @@ const upcoming = async () => {
 };
 
 export { search, getAnime, getVideo, recent, upcoming };
+export * from "./types";
