@@ -4,6 +4,13 @@ export interface Episodes {
     date: string;
 }
 
+export interface Upcoming {
+    title: string;
+    when: string;
+    img: string;
+    alternative: string;
+}
+
 export interface RecentEpisodes {
     date: string;
     anime: string;

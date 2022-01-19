@@ -4,7 +4,7 @@ import { URL } from "url";
 import { BASE_URL, USER_AGENT } from "./constants";
 import { AxiosVideos } from "./types";
 import { between, bypassGogo } from "./utils";
-import { Anime, SearchAnime, Episodes, RecentEpisodes } from "./types";
+import { Anime, SearchAnime, Episodes, RecentEpisodes, Upcoming } from "./types";
 
 axios.defaults.headers.common = {
     "User-Agent": USER_AGENT,
@@ -117,13 +117,6 @@ const recent = async () => {
 
     return episodes;
 };
-
-interface Upcoming {
-    title: string;
-    when: string;
-    img: string;
-    alternative: string;
-}
 
 const upcoming = async () => {
     const { data } = await axios.get("https://animedao.to/");
