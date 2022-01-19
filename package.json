@@ -2,7 +2,11 @@
     "name": "animedao",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "./dist"
+    ],
     "scripts": {
         "dev": "cd src && ts-node-dev index.ts"
     },
