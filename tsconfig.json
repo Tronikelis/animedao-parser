@@ -1,12 +1,14 @@
 {
     "compilerOptions": {
-        "target": "es5",
+        "baseUrl": ".",
+        "target": "es2020",
         "module": "commonjs",
         "lib": ["es2017", "es7", "es6"],
         "declaration": true,
         "outDir": "dist",
         "strict": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+        "skipLibCheck": true
     },
     "exclude": ["node_modules", "dist"]
 }
